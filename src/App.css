@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+}
+
+.header {
+    height: 10vh;
+}
+
+.header-logo {
+    height: inherit;
+    float: left;
+}
+
+.header-logo img {
+    height: 90%;
+}
+
+.header-endClass {
+    float: right;
+    height: 70%;
+    width: 24%;
+    max-width: 127px;
+}
+
+.header-endClass button {
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    padding: 2% 15% 2% 15%;
+}
+
+.header-Heading {
+    font-family: arial;
+    color: #5D4E42;
+    left: 3% !important;
+    top: 15%;
+    font-size: 1.5rem;
+}
+
+/*.header-label {*/
+/*    padding: 50;*/
+/*}*/
+/*.header {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    font-size: calc(10px + 2vmin);*/
+/*    color: white;*/
+/*}*/
+
+
+
