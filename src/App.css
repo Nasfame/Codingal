@@ -1,18 +1,18 @@
-.App {
-    text-align: center;
-}
-
 .header {
     height: 10vh;
+    font-family: arial;
 }
 
 .header-logo {
-    height: inherit;
-    float: left;
+    height: 90%;
 }
 
-.header-logo img {
-    height: 90%;
+.header-Heading {
+    color: #5D4E42;
+    margin-left: 3%;
+    /*margin-bottom: 0.5%;*/
+    margin-inline-start: 3%;
+    /*font-size: 1.5rem;*/
 }
 
 .header-endClass {
@@ -20,21 +20,12 @@
     height: 70%;
     width: 24%;
     max-width: 127px;
-}
-
-.header-endClass button {
-    height: 100%;
-    width: 100%;
-    font-size: larger;
     padding: 2% 15% 2% 15%;
 }
 
-.header-Heading {
-    font-family: arial;
-    color: #5D4E42;
-    left: 3% !important;
-    top: 15%;
+.time {
     font-size: 1.5rem;
+    /*top: 15%;*/
 }
 
 /*.header-label {*/
