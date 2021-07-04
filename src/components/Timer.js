@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react"
-import './Timer.css'
+// import './Timer.css'
 
 
 const display = (number) => (number < 10 ? '0' : '') + number //pad a number
@@ -33,7 +33,7 @@ const Timer = () => {
 
     return (
         // <div>
-            <strong className="time">
+            <h2 className="header-timer strong order-3 d-position-relative d-inline">
                 {time(seconds)}
             {/*<div className="row">*/}
             {/*    <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`}*/}
@@ -44,7 +44,7 @@ const Timer = () => {
             {/*        Reset*/}
             {/*    </button>*/}
             {/*</div>*/}
-                    </strong>
+                    </h2>
 
     )
 }

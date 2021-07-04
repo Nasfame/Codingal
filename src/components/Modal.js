@@ -5,7 +5,7 @@ const Modal = () => {
         console.log("Modal")
     })
     return (
-        <div className="modal fade" id="endClassModal" tabIndex="-1" data-bs-backdrop="static" role="dialog"
+        <div className="modal" id="endClassModal" tabIndex="-1" data-bs-backdrop="static" role="dialog"
              aria-labelledby="endClassModal">
              {/*aria-hidden="true">*/}
             <div className="modal-dialog">
