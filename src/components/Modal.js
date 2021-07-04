@@ -1,4 +1,10 @@
 import {useEffect} from "react"
+//
+// const ReqModal = ()=>{
+//     $('#myModal').on('shown.bs.modal', function () {
+//   $('#myInput').trigger('focus')
+// })
+// }
 
 const Modal = () => {
     useEffect(() => {
@@ -26,7 +32,7 @@ const Modal = () => {
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     )
 }
 export default Modal
