@@ -26,7 +26,7 @@ const Modal = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>  
     )
 }
 export default Modal
