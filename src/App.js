@@ -7,6 +7,7 @@ import logo from './images/logo.jpeg'
 import Modal from "./components/Modal"
 import Timer from "./components/Timer"
 
+//Navbar doesnt support Hamburger icon
 const Header = () => {
     return (
         <header
