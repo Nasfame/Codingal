@@ -1,6 +1,4 @@
 import {useEffect, useState} from "react"
-// import './Timer.css'
-
 
 const display = (number) => (number < 10 ? '0' : '') + number //pad a number
 const toMin = (sec) => display(Math.floor(sec / 60))
@@ -8,12 +6,10 @@ const toSec = (sec) => display(sec % 60)
 const time = (sec) => `${toMin(sec)}:${toSec(sec)}`
 
 
-const Timer = () => {
+const Timer = ({className}) => {
     const [seconds, setSeconds] = useState(600)
     const [isActive, setIsActive] = useState(true)
     let interval = null
-
-    const toggle = () => setIsActive(!isActive)
 
     const reset = () => {
         setSeconds(seconds)
@@ -32,19 +28,11 @@ const Timer = () => {
     }, [isActive, seconds])
 
     return (
-        // <div>
-            <h2 className="header-timer strong order-3 d-position-relative d-inline">
+        <div className={className}>
+            <h2>
                 {time(seconds)}
-            {/*<div className="row">*/}
-            {/*    <button className={`button button-primary button-primary-${isActive ? 'active' : 'inactive'}`}*/}
-            {/*            onClick={toggle}>*/}
-            {/*        {isActive ? 'Pause' : 'Start'}*/}
-            {/*    </button>*/}
-            {/*    <button className="button" onClick={reset}>*/}
-            {/*        Reset*/}
-            {/*    </button>*/}
-            {/*</div>*/}
-                    </h2>
+            </h2>
+        </div>
 
     )
 }

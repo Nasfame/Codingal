@@ -2,51 +2,33 @@
     height: 10vh;
     font-family: arial;
 }
+.header-logo{
+    border-right-style: solid;
+}
 
-.header-logo {
-    height: 90%;
+.header-logo img{
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .header-Heading {
     color: #5D4E42;
+    padding: 4;
     margin-left: 3%;
     margin-inline-start: 3%;
-    /*font-size: 1.5rem;*/
 }
 
-.header-Ending{
-    float: right;
+.header-Ending {
+    float:right;
     height: 70%;
     width: 24%;
+
 }
 
-/*.header-endClass {*/
-/*    float: right;*/
-/*    height: 70%;*/
-/*    width: 24%;*/
-/*    max-width: 127px;*/
-/*    padding: 2% 15% 2% 15%;*/
-/*}*/
+.header-Ending-Timer{
 
-/*.header-timer {*/
-/*    color: #5D4E42;*/
-/*    font-size: 1.5rem;*/
-/*    text-justify: unset;*/
-/*    margin-left:80.2%;*/
-/*    margin-right:2;*/
-/*    !*top: 15%;*!*/
-/*}*/
+}
+.header-Ending-EndClass{
 
-/*.header-label {*/
-/*    padding: 50;*/
-/*}*/
-/*.header {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: flex-start;*/
-/*    font-size: calc(10px + 2vmin);*/
-/*    color: white;*/
-/*}*/
-
-
+}
 
