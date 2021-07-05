@@ -8,10 +8,10 @@ import Modal from "./components/Modal"
 import Timer from "./components/Timer"
 
 //Navbar doesnt support Hamburger icon
-const Header = () => {
+const NavBar = () => {
     return (
-        <header
-            className="header d-flex header-light text-dark sticky-top">
+        <navbar
+            className="navbar navbar-light text-dark sticky-top">
             <div className="header-logo border-light py-3 px-3">
                 <img src={logo} alt="logo"/>
             </div>
@@ -30,7 +30,7 @@ const Header = () => {
                     <Modal/>
                 </div>
             </div>
-        </header>
+        </navbar>
     )
 }
 
