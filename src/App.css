@@ -1,8 +1,9 @@
 .navbar {
-    height: 10vh;
+    max-height: 10vh;
 }
 
 .navbar-logo {
+    height: inherit;
     border-right-style: solid;
 }
 

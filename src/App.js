@@ -7,12 +7,10 @@ import logo from './images/logo.jpeg'
 import Modal from "./components/Modal"
 import Timer from "./components/Timer"
 
-//Navbar doesnt support Hamburger icon
-const NavBar = () => {
+const Navbar = () => {
     return (
-        <navbar
-            className="navbar navbar-light text-dark sticky-top">
-            <div className="navbar-logo border-light py-3 px-3">
+        <div className="navbar navbar-expand-lg navbar-light d-flex text-dark sticky-top">
+            <div className="navbar-logo border-light">
                 <img src={logo} alt="logo"/>
             </div>
             <div className="navbar-Heading p-3">
@@ -30,47 +28,43 @@ const NavBar = () => {
                     <Modal/>
                 </div>
             </div>
-        </navbar>
+        </div>
     )
 }
 
 
 const App = () => {
-
     return (
-        <div>
-            <Navbar />
-        </div>
+        <Navbar/>
     )
 }
 
-export defau]lt App
+export default App
 
-
-const Toggler = () => {
-    {/*<div className="navbar-components collapse">*/
-    }
-    {/*    <div className="bg-light shadow-3 p-4">*/
-    }
-    {/*    */
-    }
-    {/*</div>*/
-    }
-    {/*</div>*/
-    }
-    {/*position-absolute end-0*/
-    }
-    {/*                    <button className="navbar-toggler ms-auto bg-dark collapsed" type="button" data-mdb-toggle="collapse"*/
-    }
-    {/*                            data-toggle="collapse"  data-mdb-target=".navbar-components" aria-controls="navbar-components"*/
-    }
-    {/*                            aria-expanded="false" aria-label="Toggle navigation" style={{outlineColor:"white"}}>*/
-    }
-    {/*>*/
-    }
-    {/*                    </button>*/
-    }
-}
-
+// const Toggler = () => {
+//     {/*<div className="navbar-components collapse">*/
+//     }
+//     {/*    <div className="bg-light shadow-3 p-4">*/
+//     }
+//     {/*    */
+//     }
+//     {/*</div>*/
+//     }
+//     {/*</div>*/
+//     }
+//     {/*position-absolute end-0*/
+//     }
+//     {/*                    <button className="navbar-toggler ms-auto bg-dark collapsed" type="button" data-mdb-toggle="collapse"*/
+//     }
+//     {/*                            data-toggle="collapse"  data-mdb-target=".navbar-components" aria-controls="navbar-components"*/
+//     }
+//     {/*                            aria-expanded="false" aria-label="Toggle navigation" style={{outlineColor:"white"}}>*/
+//     }
+//     {/*>*/
+//     }
+//     {/*                    </button>*/
+//     }
+// // }
+// //
 
 //
