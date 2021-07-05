@@ -1,33 +1,28 @@
 .header {
     height: 10vh;
-    font-family: arial;
 }
-.header-logo{
+
+.header-logo {
     border-right-style: solid;
 }
 
-.header-logo img{
+.header-logo img {
     max-height: 100%;
     max-width: 100%;
 }
 
 .header-Heading {
-    color: #5D4E42;
-    padding: 4;
-    margin-left: 3;
+
 }
 
 .header-Ending {
-    float:right;
-    height: 70%;
-    width: 24%;
+}
+
+.header-Ending-Timer {
 
 }
 
-.header-Ending-Timer{
-
-}
-.header-Ending-EndClass{
-
+.header-Ending-EndClass {
+    overflow: hidden;
 }
 

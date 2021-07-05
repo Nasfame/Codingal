@@ -29,9 +29,9 @@ const Timer = ({className}) => {
 
     return (
         <div className={className}>
-            <h2>
+            <label>
                 {time(seconds)}
-            </h2>
+            </label>
         </div>
 
     )
