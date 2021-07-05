@@ -12,17 +12,17 @@ const NavBar = () => {
     return (
         <navbar
             className="navbar navbar-light text-dark sticky-top">
-            <div className="header-logo border-light py-3 px-3">
+            <div className="navbar-logo border-light py-3 px-3">
                 <img src={logo} alt="logo"/>
             </div>
-            <div className="header-Heading p-3">
+            <div className="navbar-Heading p-3">
                 <label className="p text-dark strong pt-2 d-none d-md-block">Trial Lesson [Grade
                     1-3] </label>
                 <label className="h2 d-md-none">Codingal</label>
             </div>
-            <div className="header-Ending d-flex justify-content-flex-end p-3">
-                <Timer className="header-Ending-Timer p"/>
-                <div className="header-Ending-EndClass align-content-center">
+            <div className="navbar-Ending d-flex justify-content-flex-end p-3">
+                <Timer className="navbar-Ending-Timer p"/>
+                <div className="navbar-Ending-EndClass align-content-center">
                     <button type="button" className="btn btn-danger text-color-light text-nowrap text-white-50"
                             data-bs-toggle="modal"
                             data-bs-target="#endClassModal" data-content="">End class
@@ -39,16 +39,16 @@ const App = () => {
 
     return (
         <div>
-            <Header/>
+            <Navbar />
         </div>
     )
 }
 
-export default App
+export defau]lt App
 
 
 const Toggler = () => {
-    {/*<div className="header-components collapse">*/
+    {/*<div className="navbar-components collapse">*/
     }
     {/*    <div className="bg-light shadow-3 p-4">*/
     }
@@ -60,9 +60,9 @@ const Toggler = () => {
     }
     {/*position-absolute end-0*/
     }
-    {/*                    <button className="header-toggler ms-auto bg-dark collapsed" type="button" data-mdb-toggle="collapse"*/
+    {/*                    <button className="navbar-toggler ms-auto bg-dark collapsed" type="button" data-mdb-toggle="collapse"*/
     }
-    {/*                            data-toggle="collapse"  data-mdb-target=".header-components" aria-controls="header-components"*/
+    {/*                            data-toggle="collapse"  data-mdb-target=".navbar-components" aria-controls="navbar-components"*/
     }
     {/*                            aria-expanded="false" aria-label="Toggle navigation" style={{outlineColor:"white"}}>*/
     }

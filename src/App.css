@@ -1,28 +1,28 @@
-.header {
+.navbar {
     height: 10vh;
 }
 
-.header-logo {
+.navbar-logo {
     border-right-style: solid;
 }
 
-.header-logo img {
+.navbar-logo img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.header-Heading {
+.navbar-Heading {
 
 }
 
-.header-Ending {
+.navbar-Ending {
 }
 
-.header-Ending-Timer {
+.navbar-Ending-Timer {
 
 }
 
-.header-Ending-EndClass {
+.navbar-Ending-EndClass {
     overflow: hidden;
 }
 
