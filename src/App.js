@@ -9,26 +9,28 @@ import Timer from "./components/Timer"
 
 const Navbar = () => {
     return (
-        <div className="navbar navbar-expand-lg navbar-light d-flex text-dark sticky-top">
-            <div className="navbar-logo border-light">
+        <header className="header d-flex">
+            <div className="navbar navbar-expand-lg navbar-light navbar-fixed-top d-flex text-dark sticky-top">
+                 <span className="navbar-logo border-light">
                 <img src={logo} alt="logo"/>
-            </div>
-            <div className="navbar-Heading p-3">
-                <label className="p text-dark strong pt-2 d-none d-md-block">Trial Lesson [Grade
-                    1-3] </label>
-                <label className="h2 d-md-none">Codingal</label>
-            </div>
-            <div className="navbar-Ending d-flex justify-content-flex-end p-3">
-                <Timer className="navbar-Ending-Timer p"/>
-                <div className="navbar-Ending-EndClass align-content-center">
-                    <button type="button" className="btn btn-danger text-color-light text-nowrap text-white-50"
-                            data-bs-toggle="modal"
-                            data-bs-target="#endClassModal" data-content="">End class
-                    </button>
-                    <Modal/>
+            </span>
+                <div className="navbar-Heading p-3">
+                    <label className="p text-dark strong pt-2 d-none d-md-block">Trial Lesson [Grade
+                        1-3] </label>
+                    <label className="h2 d-md-none">Codingal</label>
+                </div>
+                <div className="navbar-Ending d-flex justify-content-flex-end p-3">
+                    <Timer className="navbar-Ending-Timer p"/>
+                    <div className="navbar-Ending-EndClass align-content-center">
+                        <button type="button" className="btn btn-danger text-color-light text-nowrap text-white-50"
+                                data-bs-toggle="modal"
+                                data-bs-target="#endClassModal" data-content="">End class
+                        </button>
+                        <Modal/>
+                    </div>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 

@@ -3,11 +3,10 @@
 }
 
 .navbar-logo {
-    height: inherit;
     border-right-style: solid;
 }
 
-.navbar-logo img {
+.navbar > img {
     max-height: 100%;
     max-width: 100%;
 }
