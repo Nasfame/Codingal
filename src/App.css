@@ -1,17 +1,17 @@
-.navbar {
+.header {
     max-height: 10vh;
 }
 
-.navbar-logo {
+.header-logo {
     border-right-style: solid;
 }
 
-.navbar > img {
+.header-logo > img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.navbar-Heading {
+.header-Heading {
     
 }
 

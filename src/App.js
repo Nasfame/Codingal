@@ -10,16 +10,16 @@ import Timer from "./components/Timer"
 const Navbar = () => {
     return (
         <header className="header d-flex">
-            <div className="navbar navbar-expand-lg navbar-light navbar-fixed-top d-flex text-dark sticky-top">
-                 <span className="navbar-logo border-light">
+            <div className="header-logo p-3 border-light">
                 <img src={logo} alt="logo"/>
-            </span>
-                <div className="navbar-Heading p-3">
-                    <label className="p text-dark strong pt-2 d-none d-md-block">Trial Lesson [Grade
+            </div>
+            <div className="header-Heading p-3">
+                    <label className="p text-dark strong d-none d-md-block">Trial Lesson [Grade
                         1-3] </label>
                     <label className="h2 d-md-none">Codingal</label>
                 </div>
-                <div className="navbar-Ending d-flex justify-content-flex-end p-3">
+            <div className="navbar navbar-collapse collapse navbar-responsive-collapse justify-content-end d-flex align-content-end text-dark">
+                <div className="navbar-Ending d-flex p-3">
                     <Timer className="navbar-Ending-Timer p"/>
                     <div className="navbar-Ending-EndClass align-content-center">
                         <button type="button" className="btn btn-danger text-color-light text-nowrap text-white-50"
