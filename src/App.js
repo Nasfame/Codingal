@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js";
 
 import logo from './images/logo.jpeg'
-import Modal from "./components/Modal"
+import Modal from "./components/Modal" 
 import Timer from "./components/Timer"
 
 const Navbar = () => {
