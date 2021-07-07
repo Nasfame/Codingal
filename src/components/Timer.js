@@ -29,9 +29,9 @@ const Timer = ({className}) => {
 
     return (
         <div className={className}>
-            <label>
+            <b><a className="nav-link disabled" href="#">
                 {time(seconds)}
-            </label>
+            </a></b>
         </div>
 
     )
